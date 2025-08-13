@@ -1,0 +1,18 @@
+{
+  "name": "document-note-data",
+  "version": "1.0.0",
+  "description": "一个 GitHub 私有仓库用来存放 Markdown 文档",
+  "main": "index.js",
+  "scripts": {
+    "new": "node scripts/newPost.cjs",
+    "publish": "node scripts/publishPost.cjs",
+    "time": "node scripts/upload.cjs time",
+    "convert": "node scripts/upload.cjs convert",
+    "commit": "node scripts/upload.cjs commit",
+    "push": "node scripts/upload.cjs push",
+    "initId": "node scripts/convertFiles.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
